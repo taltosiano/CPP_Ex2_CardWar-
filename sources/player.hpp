@@ -12,7 +12,6 @@ class Player{
     private:
         string name;
         
-
     public:
         Player(string name); // constructor declaration
         Player();

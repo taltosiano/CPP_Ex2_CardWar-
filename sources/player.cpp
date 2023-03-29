@@ -4,13 +4,10 @@
 
 using namespace std;
 namespace ariel{
-
+    
+    // empty constructor
      Player::Player() {}
 
-    // Player::Player(std::string name) // initialization of the constructor.
-    // {
-    //     this->name = name;
-    // };
 
     Player::Player(string name){
 

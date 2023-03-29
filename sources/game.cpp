@@ -16,7 +16,7 @@ void Game::playTurn(){
 
 }
 
-// print the last turn stats. For example:
+// print the last turn stats. 
 void Game::printLastTurn(){
 
 }
