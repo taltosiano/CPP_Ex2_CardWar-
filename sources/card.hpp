@@ -3,10 +3,10 @@ namespace ariel{
 class Card{
 
 private:
-    /* data */
+    int number;
 public:
-    card();
-};
-
-    
+    card(int number);git add *
+    int getCardNum;
+};    
 }
+#endif
