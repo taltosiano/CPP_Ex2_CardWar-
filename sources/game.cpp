@@ -1,4 +1,6 @@
 #include "game.hpp"
+#include <iostream>
+#include <string>
 
 namespace ariel{
 

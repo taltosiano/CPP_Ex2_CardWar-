@@ -1,14 +1,24 @@
 #include "player.hpp"
+#include <iostream>
+#include <string>
 
+using namespace std;
 namespace ariel{
 
-    Player::Player(std::string name){
+    Player::Player() {};
 
-    }
+    Player::Player(std::string name) // initialization of the constructor.
+    {
+        this->name = name;
+    };
+
+    // Player::Player(std::string name){
+
+    // }
 
     //prints the amount of cards left. should be 21 but can be less if a draw was played
     int Player::stacksize(){
-        return numCards.size();
+        return 0;
     }
 
     // prints the amount of cards this player has won
