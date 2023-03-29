@@ -18,13 +18,5 @@ class Game{
         void printWinner();
     };
     
-    game::game(/* args */)
-    {
-    }
     
-    game::~game()
-    {
-    }
-    
-    
-} // namespace ariel
+} 
