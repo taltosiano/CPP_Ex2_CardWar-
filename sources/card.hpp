@@ -5,7 +5,7 @@ class Card{
 private:
     int number;
 public:
-    card(int number);git add *
+    Card(int number);
     int getCardNum;
 };    
 }
