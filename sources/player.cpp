@@ -5,16 +5,20 @@
 using namespace std;
 namespace ariel{
 
-    Player::Player() {};
+     Player::Player() {}
 
-    Player::Player(std::string name) // initialization of the constructor.
-    {
-        this->name = name;
-    };
+    // Player::Player(std::string name) // initialization of the constructor.
+    // {
+    //     this->name = name;
+    // };
 
-    // Player::Player(std::string name){
+    Player::Player(string name){
 
-    // }
+    }
+
+    string Player::getName(){
+        return "";
+    }
 
     //prints the amount of cards left. should be 21 but can be less if a draw was played
     int Player::stacksize(){
@@ -33,7 +37,11 @@ namespace ariel{
 
     // The card at the top of the pack (the card that player will turn over)
     int Player::cardOnTop(){
+        return 0;
+    }
 
+    int Player::numOfCards(){
+        return 0;
     }
 
 

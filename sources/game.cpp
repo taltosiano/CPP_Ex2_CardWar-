@@ -1,11 +1,15 @@
 #include "game.hpp"
+#include "card.hpp"
+#include "player.hpp"
 #include <iostream>
 #include <string>
 
+
+using namespace std;
 namespace ariel{
 
-Game::Game(){
-
+Game::Game(Player p1, Player p2){
+    
 }
 
 void Game::playTurn(){
